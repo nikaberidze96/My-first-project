@@ -1,0 +1,318 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+body {
+  animation-name: tetri;
+  animation-duration: 2s;
+}
+
+@keyframes tetri {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* navigation start */
+
+.navigationbar {
+  top: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  z-index: 100;
+  background-color: #030f38;
+}
+
+.skull {
+  position: absolute;
+  top: 64px;
+  left: 110px;
+}
+
+.skull svg {
+  filter: invert(1);
+  height: 65px;
+}
+
+.skulltext a:first-child {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+}
+
+.skulltext a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.skulltext {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+  left: 70px;
+}
+
+.simbols {
+  display: flex;
+  gap: 23px;
+  position: absolute;
+  right: 138px;
+  top: 79px;
+}
+
+.simbols a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.simbols a:hover {
+  color: #05b9f2;
+  transition: 0.4s;
+}
+
+.simbols .updates {
+  color: #05b9f2;
+}
+
+.navigationbartextbox {
+  width: 80%;
+  height: 100%;
+}
+
+/* navigationend */
+
+/* section1 start */
+
+.update {
+  width: 100%;
+  height: 300px;
+  background-color: #030f38;
+}
+
+.update h1 {
+  color: #05b9f2;
+  font-size: 88px;
+  font-family: "Oswald", sans-serif;
+}
+
+.update {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* section1 end */
+
+/* section2 start */
+
+.section2 {
+  background-color: #030f38;
+  height: 70px;
+  position: relative;
+}
+
+.section2 a {
+  color: #05b9f2;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+}
+
+.section2 a:hover {
+  color: white;
+}
+
+.links {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  left: -315px;
+}
+
+/* section2 end */
+
+/* section3 start */
+
+.section3 {
+  background-color: #030f38;
+  width: 100%;
+  height: 2250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box {
+  width: 940px;
+  height: 340.5px;
+  border: solid 1px white;
+  display: flex;
+}
+
+.picturebox {
+  width: 50%;
+  height: 100%;
+}
+
+.textbox1 {
+  height: 100%;
+  width: 52%;
+  position: relative;
+}
+
+.ucknownpicture img {
+  border-radius: 100px;
+}
+
+.ucknownpicture {
+  position: absolute;
+  left: 40px;
+  top: 5px;
+}
+
+.textbo1admin {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+}
+
+.crown a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.crown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 100px;
+  top: 5px;
+}
+
+.bigtexts p {
+  color: white;
+  font-size: 16px;
+}
+
+.bigtexts a {
+  text-decoration: none;
+}
+
+.bigtexts p:first-child {
+  font-size: 28px;
+  color: white;
+}
+
+.bigtexts {
+  width: 84%;
+  position: absolute;
+  top: 65px;
+  left: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  background-color: #353f60;
+  height: 1px;
+  width: 380px;
+  position: absolute;
+  top: 280px;
+  left: 50px;
+}
+
+.bibi {
+  color: white;
+}
+
+.views {
+  color: white;
+}
+
+.bi {
+  color: red;
+}
+
+.heart {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  gap: 225px;
+}
+
+/* section3 end */
+
+/* section4 start */
+
+.adressdiv {
+  background-color: #030f38;
+  width: 100%;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 25px;
+}
+
+.adressdiv p {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.adressdiv p a {
+  color: white;
+}
+
+input:focus {
+  color: white;
+  outline: none;
+}
+
+.ahrevdiv {
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.ahrevdiv a {
+  font-size: 15px;
+  color: white;
+}
+
+.line2 {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #353f60;
+  top: 75px;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>MY PROJECT X</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+    <!-- site background start -->
+
+    <video id="background-video" autoplay muted loop src="https://video.wixstatic.com/video/ea71bb_26b74ffd432b4a4890727cd91b6f60e9/1080p/mp4/file.mp4"> </video >
+
+<!-- site background end -->
+
+
+
+
+    <!-- navigation start -->
+
+<nav>
+<div class="navigationbar">
+
+    
+
+
+     <div class="navigationbartextbox">
+    <div class="simbols">
+        <a class="home" href="">Home</a>
+        <a href="">Updates</a>
+        <a href="">Roster</a>
+        <a href="">Contact</a>
+        <a href="https://www.facebook.com/wix" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+        <a href="https://twitter.com/Wix" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/Wix" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+     </div>
+
+</div>
+</nav>
+<!-- navigation end -->
+
+
+
+
+
+
+
+<!-- upcenter start -->
+<section class="section1">
+<div class="upcenterbox">
+
+<div class="bigtext"><h1>Revolutionizing the eSports World</h1></div>
+<div class="smalltext"><h2>Official Home of REVO Competitive Gaming</h2></div>
+</div>
+</section>
+
+<!-- upcenter end -->
+
+ 
+
+
+
+
+<!-- section2 start -->
+
+<section class="section2">
+
+    
+
+
+<div class="section2picterbox">
+    <img src="https://static.wixstatic.com/media/ea71bb_b21d9cef0e6d436d94b641c60f0edfc2~mv2_d_6609_4406_s_4_2.jpg/v1/fill/w_950,h_875,fp_0.45_0.33,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_b21d9cef0e6d436d94b641c60f0edfc2~mv2_d_6609_4406_s_4_2.jpg" width="100%" alt="">
+</div>
+
+
+
+<div class="section2textbox2">
+<div class="section2smalltextbox2">
+
+    <div><h1>About Us</h1></div>
+    <div><p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p></div>
+
+</div>
+</div>
+</section>
+
+<!-- section2 end -->
+
+
+
+<!-- section3 start --> 
+<div class="section3">
+
+    <div class="section3textbox">
+        <h1 class="latestupdates">Latest Updates</h1>
+    </div>
+    <div class="section3linkbox">
+
+
+
+        <div class="section3picturebox1">
+         <img src="https://static.wixstatic.com/media/84770f_3e8a581ece8b4ccca12d7f49880e1051~mv2.jpg/v1/fill/w_925,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_3e8a581ece8b4ccca12d7f49880e1051~mv2.jpg" height="100%" width="100%" alt="">
+         <div class="section3smallbox1">
+            <ul>May 16</ul>
+            <a href="">Ultimate Warship: The Leviathan Carrier XT</a>
+        </div>
+        </div>
+
+
+
+
+        <div class="section3picturebox2">
+        <img src="https://static.wixstatic.com/media/84770f_fb90404e629b4f249950d6b66895badb~mv2.jpeg/v1/fill/w_925,h_504,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_fb90404e629b4f249950d6b66895badb~mv2.jpeg" width="100%" height="100%" alt="">
+        <div class="section3smallbox2">
+            <ul>May 16</ul>
+            <a href="">Max out Your Exoskeleton & Never Die Again</a>
+        </div>
+        </div>
+        
+
+
+        <div class="section3picturebox3">
+        <img src="https://static.wixstatic.com/media/84770f_c3b39afdc1fe43b5ab024b638e69d1cc~mv2.jpg/v1/fill/w_925,h_710,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_c3b39afdc1fe43b5ab024b638e69d1cc~mv2.jpg" height="100%" width="100%" alt="">
+        <div class="section3smallbox3">
+            <ul>May 16</ul>
+            <a href="">How to Build a Lasting Moonrock Mine</a>
+        </div>
+        </div>
+
+        <div class="button1"><button>More Updates</button></div>
+    </div>
+</div>
+<!-- section3 end -->
+
+
+
+
+
+<!-- section4 start --> 
+
+<div class="section4">
+
+<div class="section4textbox">
+ <h1>Rooster</h1>
+ <button class="button2">Our Crew</button>
+    
+</div>
+</div>
+
+<!-- section4 end --> 
+
+
+
+<!-- section5 start --> 
+<footer>
+    <div class="section5">
+        <div class="section5registacionbox">
+        <div class="section5smallbox1">
+        <div><h1>Join Our Mailing List</h1></div>
+        <div><h5>Be the First to Hear All the Latest Revo News</h5></div>
+        </div>
+    
+        <div class="section5smallbox2">
+         
+    
+        <div class="namediv">
+        <input type="text" id="name" placeholder="Name">
+        </div>
+        <div class="registrationdiv">
+            <input type="mail" name="" id="mail" placeholder="Email*">
+        </div>
+        <div><button type="submit">Subscribe</button></div>
+    
+        </div>
+        </div>
+
+        <div class="adressdiv">
+        
+        <div><p>info@mysite.com</p></div>
+        <div class="ahrevdiv">
+            <a href="https://www.facebook.com/wix" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/Wix" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/user/Wix" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div><p>© 2035 by REVO. Powered and secured by <a href="https://manage.wix.com/account/sites?referralAdditionalInfo=Route" target="_blank">Wix</a></p></div>
+
+
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

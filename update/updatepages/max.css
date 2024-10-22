@@ -1,0 +1,487 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+body {
+  animation-name: tetri;
+  animation-duration: 2s;
+}
+
+@keyframes tetri {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* navigation start */
+
+.navigationbar {
+  top: 0;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  z-index: 100;
+  background-color: #030f38;
+}
+
+.skull {
+  position: absolute;
+  top: 64px;
+  left: 110px;
+}
+
+.skull svg {
+  filter: invert(1);
+  height: 65px;
+}
+
+.skulltext a:first-child {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+}
+
+.skulltext a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.skulltext {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+  left: 70px;
+}
+
+.simbols {
+  display: flex;
+  gap: 23px;
+  position: absolute;
+  right: 138px;
+  top: 79px;
+}
+
+.simbols a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.simbols a:hover {
+  color: #05b9f2;
+  transition: 0.4s;
+}
+
+.simbols .updates {
+  color: #05b9f2;
+}
+
+.navigationbartextbox {
+  width: 80%;
+  height: 100%;
+}
+
+/* navigationend */
+
+/* section2 start */
+
+.section2 {
+  background-color: #030f38;
+  height: 70px;
+  position: relative;
+}
+
+.section2 a {
+  color: white;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+}
+
+.section2 a:hover {
+  color: #05b9f2;
+}
+
+.links {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  left: -315px;
+  z-index: 100;
+}
+
+/* section2 end */
+
+/* section4 start */
+
+.adressdiv {
+  background-color: #030f38;
+  width: 100%;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 25px;
+}
+
+.adressdiv p {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.adressdiv p a {
+  color: white;
+}
+
+input:focus {
+  color: white;
+  outline: none;
+}
+
+.ahrevdiv {
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.ahrevdiv a {
+  font-size: 15px;
+  color: white;
+}
+
+.line2 {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #353f60;
+  top: 75px;
+}
+
+/* section3 start */
+
+.section3 {
+  background-color: #030f38;
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  justify-content: center;
+}
+
+.section3box {
+  border: solid 1px white;
+  height: 1650px;
+  width: 940px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ucknownpicture {
+  border-radius: 100px;
+  width: 45px;
+  height: 28px;
+}
+
+.firstline p {
+  color: white;
+  font-size: 14px;
+}
+
+.firstline {
+  display: flex;
+  gap: 10px;
+}
+
+.sectio3smallbox {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.secondline {
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.thirdline {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.fifthline {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.sixthline {
+  display: flex;
+  gap: 30px;
+}
+
+.divtext {
+  color: white;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.divline {
+  height: 90px;
+  color: #037ba1;
+  border: solid 1px;
+}
+
+.seventhline {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.eighth {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.nineth {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.tenth {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.divline1 {
+  border: 1px solid #1c274c;
+  width: 100%;
+}
+
+.elevenlinelinksbox {
+  color: white;
+  display: flex;
+  gap: 40px;
+}
+
+.eleventhlinetext {
+  color: white;
+}
+
+.eleventhlinelinks a {
+  color: #1c274c;
+  background-color: white;
+}
+
+.eleventhlinelinks {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.twelwthline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twelwthline p {
+  color: white;
+}
+
+.twelwthline i {
+  color: red;
+}
+
+.eleventhline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* section3 end */
+
+/* section4 start */
+
+.section4 {
+  background-color: #030f38;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4box {
+  width: 62%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4text p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.section4text a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.section4text a:hover {
+  color: #037ba1;
+}
+
+.section4picture1 {
+  border: 1px white solid;
+  width: 290px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section4picture {
+  display: flex;
+  gap: 40px;
+}
+
+.divlines {
+  border: #353f60 1px solid;
+  width: 100%;
+}
+
+.divtexts a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.divtexts a:hover {
+  color: #037ba1;
+}
+
+.divlinks i {
+  color: red;
+}
+
+.divlinks i:first-child {
+  color: white;
+}
+
+.divlinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divtexts {
+  height: 140px;
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 17px;
+  position: absolute;
+  top: 167px;
+  left: 12px;
+}
+
+/* section4 end */
+
+/* seciotn5 starts */
+
+.section5 {
+  background-color: #030f38;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section5box {
+  border: 1px white solid;
+  width: 940px;
+  height: 214px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2370px;
+  z-index: 100;
+}
+
+.section5smallbox {
+  width: 80%;
+  height: 80%;
+  position: relative;
+}
+
+.section5firstline p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.section5line {
+  border: 1px solid #1c274c;
+}
+
+.section5firstline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#textarea {
+  background-color: transparent;
+  border: none;
+}
+#textarea::placeholder {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.commentsection {
+  position: absolute;
+  top: 90px;
+  border: white 1px solid;
+  width: 100%;
+}
